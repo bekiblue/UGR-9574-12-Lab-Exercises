@@ -125,20 +125,17 @@ class PostWidget extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    const Icon(Icons.message_rounded,
-                        color: Colors.white, size: 14),
+                    const Icon(Icons.message_rounded, size: 14),
                     const SizedBox(width: 10),
                     Text(
                       "Post ID: ${post.id}",
-                      style: const TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w500),
+                      style: const TextStyle(fontWeight: FontWeight.w500),
                     ),
                   ],
                 ),
                 Text(
                   "User ID: ${post.userId}",
-                  style: const TextStyle(
-                      color: Colors.white, fontWeight: FontWeight.w500),
+                  style: const TextStyle(fontWeight: FontWeight.w500),
                 )
               ],
             ),
