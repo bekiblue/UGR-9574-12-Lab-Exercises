@@ -147,12 +147,11 @@ class PostItem extends StatelessWidget {
               children: [
                 Row(
                   children: const [
-                    Icon(Icons.message_rounded, color: Colors.white, size: 14),
+                    Icon(Icons.message_rounded, size: 14),
                     SizedBox(width: 10),
                     Text(
                       "Post ID: ",
                       style: TextStyle(
-                        color: Colors.white,
                         fontWeight: FontWeight.w500,
                       ),
                     ),
@@ -161,7 +160,6 @@ class PostItem extends StatelessWidget {
                 Text(
                   "User ID: ${post.userId}",
                   style: const TextStyle(
-                    color: Colors.white,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
