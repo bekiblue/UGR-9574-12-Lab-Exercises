@@ -88,6 +88,7 @@ class HomeScreen extends StatelessWidget {
                     child: Center(
                       child: Text(
                         "Loading...",
+                        style: TextStyle(fontSize: 25),
                       ),
                     ),
                   ),
